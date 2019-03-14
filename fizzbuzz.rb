@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(n)
   if n % 3 == 0
-    puts "Fizz"
+    returns "Fizz"
   elsif n % 5 == 0
-    puts "Buzz"
+    returns "Buzz"
   elsif n % 3 == 0 && n % 5 == 0
-    puts "FizzBuzz"
+    returns "FizzBuzz"
   else
-    puts n
+    returns n
 end
 end
