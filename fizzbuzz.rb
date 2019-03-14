@@ -8,6 +8,6 @@ def fizzbuzz(n)
   elsif n % 3 == 0 && n % 5 == 0
     return "FizzBuzz"
   else
-    return n
+    return "nil"
 end
 end
