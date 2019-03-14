@@ -9,5 +9,5 @@ def fizzbuzz(n)
     puts "FizzBuzz"
   else
     puts n
-
+end
 end
